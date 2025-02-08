@@ -1,0 +1,8 @@
+id: taggy-bit
+name: Metadata for my coins
+description: A sample Next.js app running on Umbrel
+version: 0.0.1
+port: 3000
+image: diogocostaeu/taggy-bit:v0.0.1
+homepage: https://github.com/industriousparadigm/taggy-bit
+author: Blake Jazz
