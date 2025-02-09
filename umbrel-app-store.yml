@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: taggy-bit
+category: finance
+name: Taggybits
+version: "0.0.2"
+tagline: Metadata for my bitcoin activity
+description: >-
+  BTC RPC Explorer is a full-featured, self-hosted explorer for the
+  Bitcoin blockchain. With this explorer, you can explore not just the
+  blockchain database, but also explore the functional capabilities of your
+  Umbrel.
+
+  It comes with a network summary dashboard, detailed view of blocks, transactions, addresses, along with analysis tools for viewing stats on miner activity, mempool summary, with fee, size, and age breakdowns. You can also search by transaction ID, block hash/height, and addresses.
+
+  It's time to appreciate the "fullness" of your node.
+releaseNotes: >-
+  Dark mode is finally here! Easily switch between your preferred mode
+  in one click.
+
+  This version also includes lots of minor styling improvements, better
+  error handling, and several bugfixes.
+developer: Blake Jazz
+website: https://github.com/industriousparadigm/taggy-bit
+dependencies:
+  - bitcoin
+  - electrs
+repo: https://github.com/industriousparadigm/taggy-bit
+support: https://github.com/industriousparadigm/taggy-bit/discussions
+port: 3031
+gallery:
+  - public/1.png
+  - public/2.png

@@ -1,9 +1,14 @@
-version: '3.8'
+version: "3.7"
+
 services:
-  nextjs-app:
-    build: .
-    ports:
-      - "3000:3000"
+  app_proxy:
     environment:
-      NODE_ENV: production
-    restart: always
+      APP_HOST: taggy-bit_web_1  # Ensure this matches the web service name
+      APP_PORT: 3000
+  
+  web:
+    image: diogocostaeu/taggy-bit:v0.0.2
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 3031:3000
